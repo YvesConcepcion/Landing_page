@@ -98,6 +98,7 @@ ul {
   align-items: center;
   width: 160px;
   gap: 5px;
+  gap: -50px;
   word-wrap: break-word;
 }
 
@@ -112,22 +113,26 @@ ul {
 p.hero-text {
   color: #f9faf8;
   display: flex;
-  flex-wrap: wrap;
 }
 
-.quote {
+.quote-main {
   background-color: #e5e7eb;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 p.quote {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
   color: #1f2937;
+  text-align: left;
+  word-break: normal;
 }
 
 .Sign-up {
@@ -159,4 +164,13 @@ button.sign-up {
   color: #1f2937;
   line-height: 1;
   text-align: center;
+}
+
+p.quotee {
+  text-align: end;
+  font-size: 18px;
+  margin-top: -30px;
+  font-weight: bolder;
+  color: #1f2937;
+  width: 850px;
 }
