@@ -23,7 +23,7 @@ h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
-  margin-bottom: -10px;
+  margin-bottom: -10px;ct
   line-height: 1;
 }
 
@@ -43,6 +43,7 @@ h1 {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  align-items: center;
 }
 
 ul {
@@ -135,22 +136,39 @@ p.quote {
   word-break: normal;
 }
 
-.Sign-up {
+.Sign-up-container {
   display: flex;
   flex-direction: row;
-  align-content: center;
-  width: 700px;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
   height: 100px;
   border-radius: 10px;
   background: #3882f6;
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
 }
+
 
 button.sign-up {
   background-color: #3882f6;
   border: #3882f6;
+  width: 105px;
+  height: 35px;
+  border-radius: 6px;
+  color: #f9faf8;
+  font-size: 15px;
+  font-weight: bolder;
+  
+
+}
+
+button.sign-up-footer {
+  background-color: #3882f6;
+  border:2px solid #f9faf8;
   width: 105px;
   height: 35px;
   border-radius: 6px;
@@ -173,4 +191,14 @@ p.quotee {
   font-weight: bolder;
   color: #1f2937;
   width: 850px;
+}
+
+p.sign-up-text, .sign-up {
+  color: #f9faf8;
+  font-size: 18px;
+  line-height: 2px;
+}
+
+p.sign-up-text {
+    font-weight: bolder;
 }
