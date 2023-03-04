@@ -23,7 +23,7 @@ h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
-  margin-bottom: -10px;ct
+  margin-bottom: -10px;
   line-height: 1;
 }
 
@@ -56,10 +56,6 @@ ul {
 }
 
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #1f2937;
   padding-top: 80px;
   padding-bottom: 100px;
@@ -105,10 +101,12 @@ ul {
 
 .hero-main {
   display: flex;
-  margin: 0;
-  gap: 20px;
-  flex-wrap: nowrap;
+  flex-direction: row;
   width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  justify-content: center;
 }
 
 p.hero-text {
@@ -152,7 +150,6 @@ p.quote {
   gap: 50px;
 }
 
-
 button.sign-up {
   background-color: #3882f6;
   border: #3882f6;
@@ -162,13 +159,11 @@ button.sign-up {
   color: #f9faf8;
   font-size: 15px;
   font-weight: bolder;
-  
-
 }
 
 button.sign-up-footer {
   background-color: #3882f6;
-  border:2px solid #f9faf8;
+  border: 2px solid #f9faf8;
   width: 105px;
   height: 35px;
   border-radius: 6px;
@@ -193,12 +188,13 @@ p.quotee {
   width: 850px;
 }
 
-p.sign-up-text, .sign-up {
+p.sign-up-text,
+.sign-up {
   color: #f9faf8;
   font-size: 18px;
   line-height: 2px;
 }
 
 p.sign-up-text {
-    font-weight: bolder;
+  font-weight: bolder;
 }
